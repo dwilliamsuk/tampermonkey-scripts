@@ -5,6 +5,7 @@
 // @description  Inserts a button to let you hop to the internal view of a customer ticket from Jira Service Desk
 // @author       https://github.com/dwilliamsuk
 // @match        https://*.atlassian.net/servicedesk/customer/portal/*/*
+// @include      https://*.atlassian.net/servicedesk/customer/portal/*/*
 // @icon         https://www.atlassian.com/favicon.ico
 // @grant        none
 // ==/UserScript==
