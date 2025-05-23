@@ -24,7 +24,7 @@
     window.addEventListener('load', function() {
         const buttons = document.querySelectorAll("button > span")
         buttons.forEach((button) => {
-            if (button.childNodes[0].data == "Hide details") {
+            if (button.childNodes[0].data == "Hide details" || button.childNodes[0].data == "Show details") {
                 const div = document.createElement("div")
                 const btn = document.createElement("button")
                 btn.textContent = "Open in Admin View"
